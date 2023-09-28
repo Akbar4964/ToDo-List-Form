@@ -1,3 +1,5 @@
+const elToDoInput = document.querySelector(".todo-input");
+
 const elAllToDoList = document.querySelector(".all-todo-list");
 
 const elTemplate = document.querySelector("#template");
