@@ -33,3 +33,7 @@ elToDoInput.addEventListener("submit", (evt) => {
   }
   elToDoInput.value = null;
 });
+
+function createContent(item) {
+  const element = elTemplate.cloneNode(true);
+}
