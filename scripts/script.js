@@ -7,3 +7,5 @@ const elToDoContent = document.querySelector(".todo-content");
 const elToDoContentText = document.querySelector(".todo-content-text");
 
 const elToDoEdit = document.querySelector(".todo-edit");
+
+const elToDoDelete = document.querySelector(".todo-delete");
