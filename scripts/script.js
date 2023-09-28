@@ -31,4 +31,5 @@ elToDoInput.addEventListener("submit", (evt) => {
   } else {
     alert(`${findValue} mavjud!`);
   }
+  elToDoInput.value = null;
 });
