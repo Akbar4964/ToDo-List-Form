@@ -27,5 +27,6 @@ elToDoInput.addEventListener("submit", (evt) => {
       name: value.trim(),
       id: Date.now(),
     };
+    list.push(createNewObject);
   }
 });
