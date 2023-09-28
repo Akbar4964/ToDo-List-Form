@@ -18,4 +18,5 @@ let list = localStorage.getItem("keys")
 
 elToDoInput.addEventListener("submit", (evt) => {
   evt.preventDefault();
+  const value = elToDoInput.value;
 });
