@@ -28,5 +28,7 @@ elToDoInput.addEventListener("submit", (evt) => {
       id: Date.now(),
     };
     list.push(createNewObject);
+  } else {
+    alert(`${findValue} mavjud!`);
   }
 });
