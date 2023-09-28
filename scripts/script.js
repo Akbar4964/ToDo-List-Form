@@ -20,4 +20,12 @@ elToDoInput.addEventListener("submit", (evt) => {
   evt.preventDefault();
   const value = elToDoInput.value;
   const findValue = list.findIndex((el) => el.name === value.trim());
+  if (value === "") {
+    alert("Ma'lumot kiritilmadi!");
+  } else if (findValue < 0) {
+    const createNewObject = {
+      name: value.trim(),
+      id: Date.now(),
+    };
+  }
 });
