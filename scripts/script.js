@@ -4,8 +4,6 @@ const elAllToDoList = document.querySelector(".all-todo-list");
 
 const elTemplate = document.querySelector("#template");
 
-const elToDoContent = document.querySelector(".todo-content");
-
 const elToDoContentText = document.querySelector(".todo-content-text");
 
 const elToDoEdit = document.querySelector(".todo-edit");
@@ -36,4 +34,5 @@ elToDoInput.addEventListener("submit", (evt) => {
 
 function createContent(item) {
   const element = elTemplate.cloneNode(true);
+  element.querySelector("")
 }
