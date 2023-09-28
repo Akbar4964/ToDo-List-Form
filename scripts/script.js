@@ -19,5 +19,5 @@ let list = localStorage.getItem("keys")
 elToDoInput.addEventListener("submit", (evt) => {
   evt.preventDefault();
   const value = elToDoInput.value;
-  const findValue =
+  const findValue = list.findIndex((el) => el.name === value.trim());
 });
